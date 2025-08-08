@@ -1,0 +1,5 @@
+/* Schreiben Sie eine Methode, die so lange zwei Zufallszahlen (von 0 bis 100) ermittelt und miteinander multipliziert, bis beide Zufallszahlen gleich sind.
+Das Ergebnis der Multiplikation soll in eine Datei geschrieben werden.
+Diese Methode lassen Sie von zwei Threads ausführen.
+Jeder Thread wird dabei eigene Zufallszahlen erzeugen und multiplizieren, aber die Ergebnisse der Multiplikation in eine gemeinsame Datei abspeichern.
+ */

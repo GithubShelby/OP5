@@ -1,0 +1,10 @@
+/*
+Erstellen Sie eine Klasse 'Konto' mit BigDecimal 'kontostand', einer Methode zum Verändern des Kontostandes und
+einem Konstruktor, in dem der Kontostand auf 0 festgelegt wird.
+Die Methode soll den Kontostand um einen übergebenen Wert ändern. Wird ein positiver Wert übergeben,
+wird der Kontostand erhöht, bei einem negativen Wert verringert.
+
+In der Main-Methode sollen 10 Threads gestartet werden, die jeweils 100_000 Mal den Kontostand um 1 erhöhen und anschließend um 1 verringern.
+Wenn alle Threads abgelaufen sind, wird ein Kontostand von exakt 0 erwartet. Stellen Sie sicher, dass dieses
+Ergebnis erreicht wird, indem der Vorgang synchronisiert wird.
+*/

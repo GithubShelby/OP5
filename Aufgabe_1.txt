@@ -1,0 +1,2 @@
+// Schreiben Sie ein Programm mit einem Thread-Pool von 5 Threads und einer gemeinsamen Zähler-Variable.
+// Jeder Thread gibt die eigene Thread-ID aus, erhöht den Zähler um einen bestimmten Wert und gibt dann den aktuellen Wert des Zählers aus.
